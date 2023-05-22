@@ -36,7 +36,7 @@ fi
 # Change Directory
 if [ "$directory" != "." ]; then
   echo "Changing directory to '$directory'."
-  cd $directory
+  cd "$directory"
 fi
 
 # Identify `Package.resolved` location
